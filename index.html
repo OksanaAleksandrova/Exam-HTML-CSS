@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dasteen Blog</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="w-1250">
+        <h1>Dasteen<span>.Blog</span></h1>
+        <div class="nav-bar-cta">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">About Me</a></li>
+                </ul>
+            </nav>
+            <button class="search-button">
+                <img src="img/Icon.svg" alt="Search">
+                Search
+            </button>
+            <button class="cta-button">
+                <img src="img/icon-buymeacoffee.svg" alt="Coffee">
+                buy Me a Coffee
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<!------------------- main-content ------------------->
+<main>
+    <!------------------- main-hero ------------------->
+    <section class="main-hero">
+        <div class="w-1250">
+
+            <div class="hero">
+                <h1>Hi, i’m Dasteen
+                    Front end dev</h1>
+
+                <div class="about-hero">
+                    <div class="line"></div>
+                    <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc.
+                        Make sure you subscribe to get the latest updates</p>
+                </div>
+
+                <form class="subscribe-form">
+                    <label for="email" class="hidden">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email here....">
+                    <button class="submit-subscribe">Subscribe</button>
+                </form>
+
+            </div>
+
+            <div class="img-hero">
+                <img src="img/learn-coding.png" alt="Front end dev">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!------------------- categories ------------------->
+
+    <section class="categories">
+        <div class="w-1252-categories">
+
+            <div class="categories-header">
+                <h2>Browse the category</h2>
+                <div>
+                    <a href="#" class="see-all">see all category</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="15" viewBox="0 0 7 15" fill="none">
+                        <path d="M1.42694 0.156494C1.56761 0.173496 1.70287 0.223983 1.82343 0.303955C1.94256 0.383035 2.04476 0.489022 2.12518 0.613525L6.22968 6.59888L6.28046 6.67798C6.39149 6.86777 6.45036 7.09115 6.45038 7.3186C6.45038 7.57849 6.3734 7.83303 6.22968 8.03833L6.2287 8.03931L1.97968 14.0256C1.88143 14.1648 1.75447 14.2775 1.60858 14.3518C1.46578 14.4244 1.30917 14.4567 1.15155 14.4475C0.910764 14.448 0.681764 14.3498 0.503113 14.176C0.402713 14.0783 0.320345 13.9597 0.260925 13.8274C0.201563 13.6952 0.166046 13.5508 0.15448 13.4036C0.142959 13.2563 0.156013 13.1078 0.193542 12.9661C0.231052 12.8244 0.291913 12.6915 0.374207 12.5754L0.375183 12.5745L4.12128 7.31177L0.508972 2.04028V2.03931C0.428175 1.92213 0.368065 1.78878 0.332214 1.64673C0.296233 1.50412 0.284677 1.35467 0.298035 1.20728C0.311406 1.06001 0.350176 0.91684 0.411316 0.7854C0.472519 0.653884 0.555496 0.535837 0.65741 0.439697C0.758778 0.336303 0.878471 0.256702 1.00995 0.207275C1.1437 0.15705 1.28613 0.139511 1.42694 0.156494Z"
+                              fill="#2B2C34" stroke="#2B2C34" stroke-width="0.3"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="categories-cards">
+                <div class="categories-card">
+                    <div>
+                        <img src="img/icon-css.png" alt="CSS logo">
+                        <h4>CSS</h4>
+                    </div>
+                </div>
+                <div class="categories-card">
+                    <div>
+                        <img src="img/icon-js.svg" alt="Javascript logo">
+                        <h4>Javascript</h4>
+                    </div>
+                </div>
+                <div class="categories-card">
+                    <div>
+                        <img src="img/icon-tailwind.png" alt="Tailwind logo">
+                        <h4>Tailwind</h4>
+                    </div>
+                </div>
+                <div class="categories-card">
+                    <div>
+                        <img src="img/icon-vue-js.png" alt="Vue JS logo">
+                        <h4>Vue JS</h4>
+                    </div>
+                </div>
+                <div class="categories-card">
+                    <div>
+                        <img src="img/icon-react-js.png" alt="React JS logo">
+                        <h4>React JS</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!------------------- articles ------------------->
+
+    <section class="articles">
+        <div class="w-1252-articles">
+            <!------------------- featured-article ------------------->
+
+            <section class="articles-section">
+
+                <div class="articles-section__header">
+                    <h2>Featured Articles</h2>
+                    <div>
+                        <a href="#" class="see-all">See All Articles</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="15" viewBox="0 0 7 15" fill="none">
+                            <path d="M1.42694 0.156494C1.56761 0.173496 1.70287 0.223983 1.82343 0.303955C1.94256 0.383035 2.04476 0.489022 2.12518 0.613525L6.22968 6.59888L6.28046 6.67798C6.39149 6.86777 6.45036 7.09115 6.45038 7.3186C6.45038 7.57849 6.3734 7.83303 6.22968 8.03833L6.2287 8.03931L1.97968 14.0256C1.88143 14.1648 1.75447 14.2775 1.60858 14.3518C1.46578 14.4244 1.30917 14.4567 1.15155 14.4475C0.910764 14.448 0.681764 14.3498 0.503113 14.176C0.402713 14.0783 0.320345 13.9597 0.260925 13.8274C0.201563 13.6952 0.166046 13.5508 0.15448 13.4036C0.142959 13.2563 0.156013 13.1078 0.193542 12.9661C0.231052 12.8244 0.291913 12.6915 0.374207 12.5754L0.375183 12.5745L4.12128 7.31177L0.508972 2.04028V2.03931C0.428175 1.92213 0.368065 1.78878 0.332214 1.64673C0.296233 1.50412 0.284677 1.35467 0.298035 1.20728C0.311406 1.06001 0.350176 0.91684 0.411316 0.7854C0.472519 0.653884 0.555496 0.535837 0.65741 0.439697C0.758778 0.336303 0.878471 0.256702 1.00995 0.207275C1.1437 0.15705 1.28613 0.139511 1.42694 0.156494Z"
+                                  fill="#2B2C34" stroke="#2B2C34" stroke-width="0.3"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="articles-section__cards">
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image1.png" alt="Red book about JavaScript for web developers">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Fundamental of javascript</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image2.png" alt="Computer screen with code editor and website preview">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Grid CSS make your life easier</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image3.png" alt="Toggle switch for light and dark mode design">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Make animated light mode and dark mode toggle with CSS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image4.png" alt="Tic-tac-toe game made with wooden sticks and leaves">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Make tic-tac-toe games with react JS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+            </section>
+
+
+            <!------------------- css-article ------------------->
+
+            <section class="articles-section">
+
+                <div class="articles-section__header">
+                    <h2>CSS</h2>
+                    <div>
+                        <a href="#" class="see-all">See All Articles</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="15" viewBox="0 0 7 15" fill="none">
+                            <path d="M1.42694 0.156494C1.56761 0.173496 1.70287 0.223983 1.82343 0.303955C1.94256 0.383035 2.04476 0.489022 2.12518 0.613525L6.22968 6.59888L6.28046 6.67798C6.39149 6.86777 6.45036 7.09115 6.45038 7.3186C6.45038 7.57849 6.3734 7.83303 6.22968 8.03833L6.2287 8.03931L1.97968 14.0256C1.88143 14.1648 1.75447 14.2775 1.60858 14.3518C1.46578 14.4244 1.30917 14.4567 1.15155 14.4475C0.910764 14.448 0.681764 14.3498 0.503113 14.176C0.402713 14.0783 0.320345 13.9597 0.260925 13.8274C0.201563 13.6952 0.166046 13.5508 0.15448 13.4036C0.142959 13.2563 0.156013 13.1078 0.193542 12.9661C0.231052 12.8244 0.291913 12.6915 0.374207 12.5754L0.375183 12.5745L4.12128 7.31177L0.508972 2.04028V2.03931C0.428175 1.92213 0.368065 1.78878 0.332214 1.64673C0.296233 1.50412 0.284677 1.35467 0.298035 1.20728C0.311406 1.06001 0.350176 0.91684 0.411316 0.7854C0.472519 0.653884 0.555496 0.535837 0.65741 0.439697C0.758778 0.336303 0.878471 0.256702 1.00995 0.207275C1.1437 0.15705 1.28613 0.139511 1.42694 0.156494Z"
+                                  fill="#2B2C34" stroke="#2B2C34" stroke-width="0.3"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="articles-section__cards">
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image5.png" alt="Wireframe sketches and layout design on paper">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Flexbox CSS : Everything you need to know</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image2.png" alt="Computer screen with code editor and website preview">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Grid CSS make your life easier</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image6.png" alt="Laptop screen displaying CSS or code editor">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">3 easy way to make div center</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image3.png" alt="Toggle switch for light and dark mode design">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Make animated light mode and dark mode toggle with CSS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+            </section>
+
+            <!------------------- javascript-article ------------------->
+
+            <section class="articles-section">
+
+                <div class="articles-section__header">
+                    <h2>javascript</h2>
+                    <div>
+                        <a href="#" class="see-all">See All Articles</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="15" viewBox="0 0 7 15" fill="none">
+                            <path d="M1.42694 0.156494C1.56761 0.173496 1.70287 0.223983 1.82343 0.303955C1.94256 0.383035 2.04476 0.489022 2.12518 0.613525L6.22968 6.59888L6.28046 6.67798C6.39149 6.86777 6.45036 7.09115 6.45038 7.3186C6.45038 7.57849 6.3734 7.83303 6.22968 8.03833L6.2287 8.03931L1.97968 14.0256C1.88143 14.1648 1.75447 14.2775 1.60858 14.3518C1.46578 14.4244 1.30917 14.4567 1.15155 14.4475C0.910764 14.448 0.681764 14.3498 0.503113 14.176C0.402713 14.0783 0.320345 13.9597 0.260925 13.8274C0.201563 13.6952 0.166046 13.5508 0.15448 13.4036C0.142959 13.2563 0.156013 13.1078 0.193542 12.9661C0.231052 12.8244 0.291913 12.6915 0.374207 12.5754L0.375183 12.5745L4.12128 7.31177L0.508972 2.04028V2.03931C0.428175 1.92213 0.368065 1.78878 0.332214 1.64673C0.296233 1.50412 0.284677 1.35467 0.298035 1.20728C0.311406 1.06001 0.350176 0.91684 0.411316 0.7854C0.472519 0.653884 0.555496 0.535837 0.65741 0.439697C0.758778 0.336303 0.878471 0.256702 1.00995 0.207275C1.1437 0.15705 1.28613 0.139511 1.42694 0.156494Z"
+                                  fill="#2B2C34" stroke="#2B2C34" stroke-width="0.3"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="articles-section__cards">
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image7.png" alt="Close-up of colorful JavaScript code on screen">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">array in javasript - Learn JS #3</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image1.png" alt="Red book about JavaScript for web developers">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Fundamental of javascript</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image8.png" alt="Desktop setup with monitor showing code editor">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">7 project with JavaScript you must try for your portfolio</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image9.png" alt="Smartphone calculator app on dark background">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">make simple calculator with JavaScript</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+            </section>
+
+            <!------------------- React JS-article ------------------->
+
+            <section class="articles-section">
+
+                <div class="articles-section__header">
+                    <h2>React JS</h2>
+                    <div>
+                        <a href="#" class="see-all">See All Articles</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="15" viewBox="0 0 7 15" fill="none">
+                            <path d="M1.42694 0.156494C1.56761 0.173496 1.70287 0.223983 1.82343 0.303955C1.94256 0.383035 2.04476 0.489022 2.12518 0.613525L6.22968 6.59888L6.28046 6.67798C6.39149 6.86777 6.45036 7.09115 6.45038 7.3186C6.45038 7.57849 6.3734 7.83303 6.22968 8.03833L6.2287 8.03931L1.97968 14.0256C1.88143 14.1648 1.75447 14.2775 1.60858 14.3518C1.46578 14.4244 1.30917 14.4567 1.15155 14.4475C0.910764 14.448 0.681764 14.3498 0.503113 14.176C0.402713 14.0783 0.320345 13.9597 0.260925 13.8274C0.201563 13.6952 0.166046 13.5508 0.15448 13.4036C0.142959 13.2563 0.156013 13.1078 0.193542 12.9661C0.231052 12.8244 0.291913 12.6915 0.374207 12.5754L0.375183 12.5745L4.12128 7.31177L0.508972 2.04028V2.03931C0.428175 1.92213 0.368065 1.78878 0.332214 1.64673C0.296233 1.50412 0.284677 1.35467 0.298035 1.20728C0.311406 1.06001 0.350176 0.91684 0.411316 0.7854C0.472519 0.653884 0.555496 0.535837 0.65741 0.439697C0.758778 0.336303 0.878471 0.256702 1.00995 0.207275C1.1437 0.15705 1.28613 0.139511 1.42694 0.156494Z"
+                                  fill="#2B2C34" stroke="#2B2C34" stroke-width="0.3"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="articles-section__cards">
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image10.png" alt="Laptop with code editor and coffee cup on desk">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">first month of leaning react jS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image11.png" alt="Developer working at computer with code on screen">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">build markdown editor with react JS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image12.png" alt="Close-up of colorful code on dark screen">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">getting started with react JS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="articles-section__card">
+                        <img src="img/Article_Image4.png" alt="Tic-tac-toe game made with wooden sticks and leaves">
+
+                        <div class="article-card__body">
+                            <h4 class="article-card__title">Make tic-tac-toe games with react JS</h4>
+                            <div class="article-card__meta">
+                                <img src="img/Author.svg" alt="Author Dasteen">
+                                <div class="article-card__author-block">
+                                    <h5 class="article-card__author">Dasteen</h5>
+                                    <p class="article-card__info">
+                                        <span>Jan 10, 2022</span>
+                                        <span class="article-card__dot">&#8226;</span>
+                                        <span>3 min read</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+            </section>
+
+            <button class="articles-section__button">More Article</button>
+        </div>
+    </section>
+
+    <!--    &lt;!&ndash; Подписка &ndash;&gt;-->
+    <!--    <section class="subscribe">-->
+    <!--        &lt;!&ndash; форма &ndash;&gt;-->
+    <!--    </section>-->
+
+</main>
+
+<!--&lt;!&ndash; footer &ndash;&gt;-->
+<!--<footer>-->
+<!--    &lt;!&ndash; контакты, ссылки &ndash;&gt;-->
+<!--</footer>-->
+</body>
+</html>
