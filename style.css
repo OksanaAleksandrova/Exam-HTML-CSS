@@ -477,19 +477,23 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 26px;
 }
 
 .footer-container {
     width: 100%;
-    background-color: #E4E5E9;
     padding-bottom: 50px;
+    /*display: flex;*/
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-    /*grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));*/
-    gap: 95px;
+    grid-template-columns: 1fr 2.8fr;
+    gap: 150px;
 }
 
+.footer-column-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 85px;
+}
 
 /*______________________________ footer-brand ______________________________*/
 
