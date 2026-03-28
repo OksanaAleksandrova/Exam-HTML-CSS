@@ -403,7 +403,7 @@ form {
 
 /*______________________________ articles-section__button ______________________________*/
 
-.articles-section__button{
+.articles-section__button {
     border-radius: 8px;
     background: #6246EA;
     padding: 20px 23px 19px 23px;
@@ -415,4 +415,47 @@ form {
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
+}
+
+/*______________________________ subscribe ______________________________*/
+
+.subscribe {
+    width: 100%;
+    background: #EFF0F3;
+    padding: 58px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe__wrapper {
+    width: 696px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.subscribe__mailbox {
+    width: 130px;
+    height: 130px;
+    background-color: #FFFFFE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.subscribe__wrapper h2{
+    color: #2B2C34;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.subscribe__wrapper p {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
 }
