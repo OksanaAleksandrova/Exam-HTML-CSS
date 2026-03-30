@@ -358,7 +358,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*gap: 80px;*/
 }
 
 .article-card__meta {
@@ -402,6 +401,7 @@ form {
     padding-bottom: 3px;
 }
 
+
 /*______________________________ articles-section__button ______________________________*/
 
 .articles-section__button {
@@ -417,6 +417,7 @@ form {
     font-weight: 700;
     text-transform: capitalize;
 }
+
 
 /*______________________________ subscribe ______________________________*/
 
