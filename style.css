@@ -17,7 +17,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* чтобы тень не пропадала  */
+    z-index: 1000;
 }
 
 .w-1250 {
@@ -27,14 +27,14 @@ header {
     align-items: center;
 }
 
-.nav-bar-cta {
+.header__navbar-cta {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.nav-bar-cta > nav > ul {
+.header__navbar-cta > nav > ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,17 +60,17 @@ header a {
     text-transform: capitalize;
 }
 
-.search-button {
+.header__search-button {
     color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
 }
 
-.search-button img {
+.header__search-button img {
     margin-right: 10px;
 }
 
-.cta-button {
+.header__cta-button {
     border-radius: 4px;
     background: #6246EA;
     color: #FFFFFE;
@@ -78,6 +78,7 @@ header a {
     font-weight: 700;
     text-transform: capitalize;
     padding: 10px 17px;
+
     display: flex;
     justify-content: center;
     align-items: center;
