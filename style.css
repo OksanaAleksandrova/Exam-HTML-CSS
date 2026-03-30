@@ -98,14 +98,14 @@ header a {
     align-items: center;
 }
 
-.hero {
+.main-hero__wrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 30px;
 }
 
-.hero h1 {
+.main-hero__wrapper h1 {
     width: 617px;
     color: #2B2C34;
     font-size: 64px;
@@ -113,13 +113,13 @@ header a {
     text-transform: capitalize;
 }
 
-.line {
+.main-hero__line {
     width: 3px;
     height: 56px;
     background: #2B2C34;
 }
 
-.about-hero {
+.main-hero__about {
     width: 673px;
     display: flex;
     justify-content: center;
@@ -128,7 +128,7 @@ header a {
 
 }
 
-.about-hero p {
+.main-hero__about p {
     width: 656px;
     color: #9A9494;
     font-size: 20px;
@@ -142,6 +142,9 @@ form {
     gap: 20px;
 }
 
+
+/*______________________________ subscribe-form ______________________________*/
+
 .subscribe-form {
     display: flex;
     justify-content: start;
@@ -151,12 +154,8 @@ form {
 
 .hidden {
     /* скрытый label для доступности  */
-
     position: absolute;
     width: 1px;
-
-    /*height: 1px;*/
-    /*margin: -1px;*/
     overflow: hidden;
 }
 
@@ -187,6 +186,7 @@ form {
     font-weight: 700;
 
 }
+
 
 /*______________________________ categories ______________________________*/
 
