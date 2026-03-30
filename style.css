@@ -303,7 +303,7 @@ form {
 }
 
 
-/*______________________________ articles-section__header ______________________________*/
+/*_________________________ articles-section__header _________________________*/
 
 .articles-section__header {
     width: 100%;
@@ -328,7 +328,7 @@ form {
     padding-right: 12px;
 }
 
-/*______________________________ articles-section__cards ______________________________*/
+/*_________________________ articles-section__cards _________________________*/
 
 .articles-section__cards {
     width: 100%;
@@ -402,7 +402,7 @@ form {
 }
 
 
-/*______________________________ articles-section__button ______________________________*/
+/*________________________ articles-section__button ________________________*/
 
 .articles-section__button {
     border-radius: 8px;
@@ -484,11 +484,13 @@ footer {
 .footer-container {
     width: 100%;
     padding-bottom: 50px;
-    /*display: flex;*/
     display: grid;
     grid-template-columns: 1fr 2.8fr;
     gap: 150px;
 }
+
+
+/*______________________________ footer-column ______________________________*/
 
 .footer-column-container {
     width: 100%;
@@ -497,14 +499,18 @@ footer {
     gap: 85px;
 }
 
-/*______________________________ footer-brand ______________________________*/
-
 .footer-column {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.footer-column h2 {
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .footer-column h4 {
@@ -521,25 +527,7 @@ footer {
     font-weight: 400;
 }
 
-
-/*______________________________ footer-brand ______________________________*/
-
-.footer-brand {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.footer-brand h2 {
-    color: #001858;
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.footer-brand span {
+.footer-column span {
     color: #6246EA;
     font-size: 18px;
     font-weight: 700;
@@ -567,16 +555,4 @@ footer {
     color: #2B2C34;
     font-size: 14px;
     font-weight: 400;
-}
-
-footer h1 {
-    color: #001858;
-    font-size: 36px;
-    font-weight: 600;
-}
-
-footer span {
-    color: #6246EA;
-    font-size: 18px;
-    font-weight: 700;
 }
